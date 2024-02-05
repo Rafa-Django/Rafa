@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "Rafa-web",
+    "slug": "Rafa-web",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/Splash/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#faff7f",
+      "dark": {
+           "image": "./assets/Splash/splash_dark.png",
+           "resizeMode": "contain",
+           "backgroundColor": "#3203fc"
+      }},
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "splash": {
+        "image": "./assets/Splash/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#FFF3BB",
+        "dark": {
+             "image": "./assets/Splash/splash_dark.png",
+             "resizeMode": "contain",
+             "backgroundColor": "#0a0529"
+        }},
+
+      "supportsTablet": true,
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "splash": {
+      "image": "./assets/Splash/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF3BB",
+        "dark": {
+             "image": "./assets/Splash/splash_dark.png",
+             "resizeMode": "contain",
+             "backgroundColor": "#0a0529"
+      }},
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Splash/adaptive-icon.png",
+        "backgroundImage": "./assets/Splash/adaptive-icon-background.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
