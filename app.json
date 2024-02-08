@@ -1,5 +1,8 @@
 {
   "expo": {
+    "experiments": {
+      "baseUrl": "/expo-gh-pages"
+    },
     "name": "Rafa-web",
     "slug": "Rafa-web",
     "version": "1.0.0",
@@ -50,7 +53,9 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "output": "server",
+      "bundler": "metro"
     }
   }
 }
